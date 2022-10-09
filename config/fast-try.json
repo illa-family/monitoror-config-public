@@ -1,0 +1,27 @@
+{
+    "version": "2.0",
+    "columns": 4,
+    "tiles": [
+        {
+            "type": "PING",
+            "label": "fast-try frontend",
+            "params": {
+                "hostname": "fast-try.illacloud.com"
+            }
+        },
+        {
+            "type": "PING",
+            "label": "fast-try api",
+            "params": {
+                "hostname": "fast-try-api.illacloud.com:9999"
+            }
+        },
+        {
+            "type": "PING",
+            "label": "fast-try websocket",
+            "params": {
+                "hostname": "fast-try-ws.illacloud.com:8000"
+            }
+        }
+    ]
+}
