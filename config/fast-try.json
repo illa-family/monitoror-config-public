@@ -3,24 +3,29 @@
     "columns": 4,
     "tiles": [
         {
-            "type": "PING",
+            "type": "PORT",
             "label": "fast-try frontend",
             "params": {
-                "hostname": "fast-try.illacloud.com"
+                "hostname": "fast-try.illacloud.com",
+            "port": 80
+
             }
         },
         {
-            "type": "PING",
+            "type": "PORT",
             "label": "fast-try api",
             "params": {
-                "hostname": "fast-try-api.illacloud.com:9999"
+                "hostname": "fast-try-api.illacloud.com",
+            "port": 9999
+
             }
         },
         {
-            "type": "PING",
+            "type": "PORT",
             "label": "fast-try websocket",
             "params": {
-                "hostname": "fast-try-ws.illacloud.com:8000"
+                "hostname": "fast-try-ws.illacloud.com",
+                "port": 8000
             }
         }
     ]
