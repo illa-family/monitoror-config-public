@@ -33,7 +33,7 @@
             "label": "fast-try release version",
             "params": {
                 "url": "http://fast-try.illacloud.com/user/login",
-                "regex": "<meta release-version=\"(\\s+)\">"
+                "regex": "<meta release-version=\"([a-zA-z0-9]+)\">"
             }
         }
     ]
