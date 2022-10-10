@@ -27,6 +27,14 @@
                 "hostname": "fast-try-ws.illacloud.com",
                 "port": 8000
             }
+        },
+        {
+            "type": "HTTP-RAW",
+            "label": "fast-try release version",
+            "params": {
+                "url": "http://fast-try.illacloud.com/user/login",
+                "regex": "<meta release-version=\"(\\s+)\">"
+            }
         }
     ]
 }
