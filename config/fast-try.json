@@ -35,6 +35,38 @@
                 "url": "http://fast-try.illacloud.com/user/login",
                 "regex": "release-version=\"([a-zA-Z0-9].*?)\""
             }
+        },
+        {
+            "type": "PORT",
+            "label": "fast-try test frontend",
+            "params": {
+                "hostname": "fast-try-test.illacloud.com",
+                "port": 80
+            }
+        },
+        {
+            "type": "PORT",
+            "label": "fast-try api test",
+            "params": {
+                "hostname": "fast-try-api-test.illacloud.com",
+                "port": 9999
+            }
+        },
+        {
+            "type": "PORT",
+            "label": "fast-try websocket test",
+            "params": {
+                "hostname": "fast-try-ws-test.illacloud.com",
+                "port": 8000
+            }
+        },
+        {
+            "type": "HTTP-RAW",
+            "label": "fast-try test release version",
+            "params": {
+                "url": "http://fast-try-test.illacloud.com/user/login",
+                "regex": "release-version=\"([a-zA-Z0-9].*?)\""
+            }
         }
     ]
 }
