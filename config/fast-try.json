@@ -38,7 +38,7 @@
         },
         {
             "type": "PORT",
-            "label": "fast-try test frontend",
+            "label": "fast-try frontend test",
             "params": {
                 "hostname": "fast-try-test.illacloud.com",
                 "port": 80
@@ -62,7 +62,7 @@
         },
         {
             "type": "HTTP-RAW",
-            "label": "fast-try test release version",
+            "label": "fast-try release version test",
             "params": {
                 "url": "http://fast-try-test.illacloud.com/user/login",
                 "regex": "release-version=\"([a-zA-Z0-9].*?)\""
