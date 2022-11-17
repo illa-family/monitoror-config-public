@@ -7,7 +7,7 @@
             "label": "fast-try frontend",
             "params": {
                 "hostname": "fast-try.illacloud.com",
-            "port": 80
+            "port": 443
 
             }
         },
@@ -16,7 +16,7 @@
             "label": "fast-try api",
             "params": {
                 "hostname": "fast-try-api.illacloud.com",
-            "port": 9999
+            "port": 443
 
             }
         },
@@ -25,14 +25,14 @@
             "label": "fast-try websocket",
             "params": {
                 "hostname": "fast-try-ws.illacloud.com",
-                "port": 8000
+                "port": 443
             }
         },
         {
             "type": "HTTP-RAW",
             "label": "fast-try release version",
             "params": {
-                "url": "http://fast-try.illacloud.com/user/login",
+                "url": "https://fast-try.illacloud.com/user/login",
                 "regex": "release-version=\"([a-zA-Z0-9].*?)\""
             }
         },
@@ -41,7 +41,7 @@
             "label": "fast-try frontend test",
             "params": {
                 "hostname": "fast-try-test.illacloud.com",
-                "port": 80
+                "port": 443
             }
         },
         {
@@ -49,7 +49,7 @@
             "label": "fast-try api test",
             "params": {
                 "hostname": "fast-try-api-test.illacloud.com",
-                "port": 9999
+                "port": 443
             }
         },
         {
@@ -57,14 +57,14 @@
             "label": "fast-try websocket test",
             "params": {
                 "hostname": "fast-try-ws-test.illacloud.com",
-                "port": 8000
+                "port": 443
             }
         },
         {
             "type": "HTTP-RAW",
             "label": "fast-try release version test",
             "params": {
-                "url": "http://fast-try-test.illacloud.com/user/login",
+                "url": "https://fast-try-test.illacloud.com/user/login",
                 "regex": "release-version=\"([a-zA-Z0-9].*?)\""
             }
         }
